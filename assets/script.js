@@ -23,3 +23,13 @@ function addConteudo(){
 }
 
 botaoDuvida.addEventListener("click", addConteudo);
+
+//Condicoes que faz com que nao passe de 5 ou -5
+
+
+//Condicao que faz com que o numero mude de cor sempre que ficar negativo, ou seja <0
+function valorColorido(){
+    if (numeroAtual<0) {
+        numeroAtualTela.style.color ("red");
+    }
+}
